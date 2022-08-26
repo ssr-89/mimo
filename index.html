@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__top header-top">
+        <a class="header-top__logo" href="#">
+          <svg viewbox="0 0 640 512" width="100" title="tv">
+            <path
+              d="M592 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h240v32H112a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H352v-32h240a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16 352H64V64h512z" />
+          </svg>
+        </a>
+        <nav class="header-top__nav nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#about">ABOUT ME</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Section</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Section</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">Section</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__wrapper-icons">
+          <div class="header__search search">
+            <form class="search__form" action="#" method="post">
+              <input type="text" placeholder="The search engine is not working">
+              <button type="submit">Search</button>
+            </form>
+            <button class="search__btn">
+              <svg viewbox="0 0 512 512" width="30" title="search">
+                <path
+                  d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+              </svg>
+            </button>
+          </div>
+          <div class="header-top__burger burger">
+            <button class="burger__btn">
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__content header-content" id="about">
+        <h1 class="header-content__title">WELCOME</h1>
+        <p class="header-content__descr">This is my website</p>
+        <p class="header-content__descr">
+          My name is Arthur. I'm from Russia.
+        </p>
+        <p class="header-content__descr">
+          8 months ago I started studying front-end development.
+        </p>
+        <p class="header-content__descr">
+          Due to the workload at work, I am at the initial stage of training.
+        </p>
+        <p class="header-content__descr">
+          Please do not judge strictly.
+        </p>
+      </div>
+    </div>
+  </header>
+  <script src="script.js"></script>
+</body>
+
+</html>
